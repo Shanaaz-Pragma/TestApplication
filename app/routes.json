@@ -11,10 +11,21 @@
       "hasStyle": true
     },
     {
-      "title": "About",
-      "hash": "#about",
-      "view": "about",
-      "html-only": true,
+      "title": "Simple Binding",
+      "hash": "#simple-binding",
+      "view": "simple-binding",
+      "hasStyle": true
+    },
+    {
+      "title": "Simple Array",
+      "hash": "#simple-array",
+      "view": "simple-array",
+      "hasStyle": true
+    },
+    {
+      "title": "Inflation",
+      "hash": "#inflation",
+      "view": "inflation",
       "hasStyle": true
     },
     {

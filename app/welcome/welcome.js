@@ -4,4 +4,8 @@ export default class Welcome extends ViewBase {
     async connectedCallback() {
         await super.connectedCallback();
     }
+
+    dosomething() {
+        this.setProperty("title", "Hello World");
+    }
 }

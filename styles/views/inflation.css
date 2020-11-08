@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.container > div {
+    padding: 1rem;
+}
+
+[hidden='true'] {
+    display: none;
+}
+
+[type='header'] {
+    background: #ABABAB;
+}
+
+[type='person'],
+[type='cell'] {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+[type='person'] {
+    background: #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    justify-content: flex-start;
+}
+
+[type="cell"] {
+    border-right: 1px solid #EEEEEE;
+    justify-content: center;
+}
+
+svg.icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--text);
+}

@@ -1,0 +1,38 @@
+[hidden='hidden'] {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+
+ul li {
+    padding: 0.5rem;
+    background: #DE87A5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+ul ul {
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 0;
+    /*
+    display: none;
+    */
+}
+/*
+ul li:hover ul:not([hidden='hidden']) {
+    display: flex;
+}*/
+
+ul ul li {
+    padding: 0.5rem;
+}

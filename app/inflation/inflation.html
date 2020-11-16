@@ -15,7 +15,7 @@
         <div data-person="${person}" data-trade="${trade}" type="${type}" value="${value}">
             <div hidden.if="title == null ? true">${title}</div>
             <svg class="icon" hidden.if="value == null ? true">
-                <use href="${value == true ? '#checked' : '#unchecked'}" />
+                <use xlink:href="${value == true ? '#checked' : '#unchecked'}" />
             </svg>
         </div>
     </template>

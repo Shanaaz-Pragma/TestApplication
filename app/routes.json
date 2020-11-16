@@ -23,9 +23,21 @@
       "hasStyle": true
     },
     {
-      "title": "Inflation",
+      "title": "Static UI",
       "hash": "#inflation",
       "view": "inflation",
+      "hasStyle": true
+    },
+    {
+      "title": "Menu Toggle Hard Coded",
+      "hash": "#menu-toggle-hcoded",
+      "view": "menu-toggle-hcoded",
+      "hasStyle": true
+    },
+    {
+      "title": "Menu Toggle Dynamic",
+      "hash": "#menu-toggle-dynamic",
+      "view": "menu-toggle-dynamic",
       "hasStyle": true
     },
     {

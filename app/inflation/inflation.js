@@ -2,7 +2,7 @@ import {ViewBase} from "./../../node_modules/crs-binding/crs-view-base.js";
 import {getRenderData} from "./data.js";
 
 /**
- * Simple Array
+ * Simple Inflation
  */
 export default class Inflation extends ViewBase {
     async connectedCallback() { 
@@ -21,5 +21,4 @@ export default class Inflation extends ViewBase {
         crsbinding.inflationManager.unregister("items", template);
         await super.disconnectedCallback();
     }
-
 }

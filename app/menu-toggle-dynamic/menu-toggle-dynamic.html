@@ -1,0 +1,38 @@
+<h2>${title}</h2>
+
+<div id="menu">
+    <ul role="menu">
+        <!--<li role="menu-item" click.setValue="[menu.people = !$context.menu.people; menu.active='people']">
+            <div>People</div>
+            <ul hidden.if="menu.people != true" click.call="changeValue($event, 'people')">
+                <li data-people="johan">Johan</li>
+                <li data-people="gerhard">Gerhard</li>
+                <li data-people="barend">Barend</li>
+                <li data-people="ashton">Ashton</li>
+                <li data-people="keiran">Keiran</li>
+            </ul>
+        </li>
+        <li role="menu-item" click.setValue="[menu.animals = !$context.menu.animals; menu.active='animals']">
+            <div>Animals</div>
+            <ul hidden.if="menu.animals != true" click.call="changeValue($event, 'animals')">
+                <li data-animal="monkey">Monkey</li>
+                <li data-animal="cat">Cat</li>
+                <li data-animal="dog">Dog</li>
+                <li data-animal="cow">Cow</li>
+                <li data-animal="lion">Lion</li>
+
+            </ul>
+        </li>
+-->
+        <template id="items-template" for="item of data">
+            <li role="menu-item">
+                <div>${title}</div>
+                <ul click.call="changeValue($event, dataTitle)">
+                    <template id="list-items-template" for.once="item of items">
+                        <li data-item="${item.title}">${item.title}</li>
+                    </template>
+                </ul>
+            </li>
+        </template>
+    </ul>
+</div>
